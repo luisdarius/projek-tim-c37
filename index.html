@@ -1,86 +1,228 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PROJEK TIM C37</title>
-        <link rel="stylesheet" href="stylesheet.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    </head>
-    <body>
-      <header>
-        <div class="main">
-          <div class="header-left">
-            <img class="logo" src="gambar/indonesia-logo.png">
-          </div>
-          <span class="fa fa-bars menu-icon"></span>
-          <div class="header-right">
-            <a href="#">PAKET PROMO</a>
-            <a href="#">KONTAK KAMI</a>
-            <a href="#" class="login">LOG IN</a>
-          </div>
-        </div>
-      </header>
-        <div class="top-wrapper">
-            <div class="main">
-              <h1>WISATA INDONESIA</h1>
-              <h1>3D 2N SPECIAL TRIP (27-30 JULI 2021)</h1>
-              <p>KAMI MENAWARKAN TRAVEL DAN HOTEL BINTANG LIMA DENGAN BERBAGAI FASILITAS MEWAH LAINNYA</p>
-              <p>BALI - YOGYAKARTA - RAJA AMPAT DAN LOMBOK - MASIH BANYAK LAGI!</p>
-              <div class="btn-wrapper">
-                <a href="#" class="btn signup">HUBUNGI DENGAN EMAIL</a>
-                <p>ATAU</p>
-                <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>HUBUNGI DENGAN FACEBOOK</a>
-                <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>HUBUNGI DENGAN TWITTER</a>
-              </div>
-            </div>
-          </div>
-          <div class="wisata-wrapper">
-            <div class="main">
-              <div class="heading">
-                 <h2>DESTINASI PILIHAN</h2>
-              </div>
-              <div class="tempat-wisata">
-                <div class="wisata">
-                  <div class="wisata-icon">
-                    <img src="gambar/bali-icon.png">
-                    <span class="btn message">BALI</span>
-                  </div>
-                  <p class="txt-contents">Bali adalah sebuah pulau di Indonesia yang dikenal karena pantai, dan terumbu karang yang cantik.</p>
-                </div>
-                <div class="wisata">
-                  <div class="wisata-icon">
-                    <img src="gambar/yogyakarta-icon.png">
-                    <span class="btn message">YOGYAKARTA</span>
-                  </div>
-                  <p class="txt-contents">Yogyakarta adalah wilayah yang memiliki banyak destinasi wisata Candi salah satunya Candi Borobudur.</p>
-                </div>
-                <div class="wisata">
-                  <div class="wisata-icon">
-                    <img src="gambar/raja-ampat-icon.png">
-                    <span class="btn message">RAJA AMPAT</span>
-                  </div>
-                  <p class="txt-contents">Raja Ampat adalah kepulauan yang terdiri dari banyak sekali pulau karang dan tersebar luas di seluruh wilayahnya.</p>
-                </div>
-                <div class="wisata">
-                  <div class="wisata-icon">
-                    <img src="gambar/lombok-icon.png">
-                    <span class="btn message">LOMBOK</span>
-                  </div>
-                  <p class="txt-contents">Lombok adalah wisata yang memiliki keindahan pantainya yang cantik dan indah yang wajib dikunjungi traveller.</p>
-                </div>
-                <div class="clear"></div>
-              </div>
-            </div>
-          </div>
-          <div class="message-wrapper">
-            <div class="main">
-              <div class="heading">
-                <h2>Apakah anda sudah berwisata di Indonesia?</h2>
-                <h3>Ayo berwisata di Indonesia!</h3>
-              </div>
-              <span class="btn message">MULAI BERWISATA</span>
-            </div>
-          </div>
-    </body>
-</html>
+* {
+    box-sizing: border-box;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .main {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    animation: gambar 10s ease-in-out infinite;
+  }
+
+  @keyframes gambar {
+    0%,100%{
+      background-image: url(gambar/lombok.PNG);
+    }
+    25%{
+      background-image: url(gambar/yogyakarta.PNG);
+    }
+    50%{
+      background-image: url(gambar/raja-ampat.PNG);
+    }
+    70%{
+      background-image: url(gambar/bali.PNG);
+    }
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: white;
+    text-shadow: 2px 2px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+    font-size: 20px;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+    font-size: 20px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 10px;
+  }
+    
+  .wisata-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: aqua;
+    font-size: 20px;
+    text-shadow: 2px 2px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .wisata {
+    float: left;
+    width: 25%;
+  }
+  
+  .wisata-icon {
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 45px;}
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: black;
+    text-shadow: 2px 2px aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: aqua;
+    cursor: pointer;
+    box-shadow: 0 7px gray;
+    color: white;
+    text-shadow: 2px 2px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
