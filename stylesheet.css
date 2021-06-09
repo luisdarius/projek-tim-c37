@@ -32,7 +32,7 @@
     background-size: cover;
     color: white;
     text-align: center;
-    animation: gambar 5s ease-in-out infinite;
+    animation: gambar 10s ease-in-out infinite;
   }
 
   @keyframes gambar {
