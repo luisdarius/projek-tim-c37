@@ -157,13 +157,13 @@
   
   .wisata-icon {
     position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
   }
-  
-  .wisata-icon p {
-    position: absolute;
-    top: 44%;
-    width: 100%;
-    color: white;
+
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 45px;}
   }
   
   .txt-contents {
