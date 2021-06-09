@@ -81,7 +81,7 @@
     font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 10px;
-    color: aqua;
+    color: white;
     text-shadow: 2px 2px blue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
@@ -90,7 +90,7 @@
     opacity: 0.7;
     font-size: 20px;
     margin-bottom: 3px;
-    color: aqua;
+    color: white;
     text-shadow: 2px 2px blue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
