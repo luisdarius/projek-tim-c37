@@ -81,11 +81,18 @@
     font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 10px;
+    color: aqua;
+    text-shadow: 2px 2px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .top-wrapper p {
     opacity: 0.7;
+    font-size: 20px;
     margin-bottom: 3px;
+    color: aqua;
+    text-shadow: 2px 2px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .btn-wrapper {
@@ -99,15 +106,18 @@
   
   .signup {
     background-color: #239b76;
+    font-size: 20px;
   }
   
   .facebook {
     background-color: #3b5998;
     margin-right: 10px;
+    font-size: 20px;
   }
   
   .twitter {
     background-color: #55acee;
+    font-size: 20px;
   }
   
   .btn {
@@ -138,12 +148,17 @@
     padding-right: 5%;
     background-color: #f7f7f7;
     text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .heading {
     padding-top: 80px;
     padding-bottom: 50px;
-    color: #5f5d60;
+    color: aqua;
+    font-size: 20px;
+    text-shadow: 2px 2px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .heading h2 {
@@ -171,7 +186,9 @@
     display: inline-block;
     margin-top: 15px;
     font-size: 15px;
-    color: #b3aeb5;
+    color: black;
+    text-shadow: 2px 2px aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .heading h3 {
@@ -182,6 +199,8 @@
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .message {
@@ -189,7 +208,9 @@
     background-color: aqua;
     cursor: pointer;
     box-shadow: 0 7px gray;
-    color: grey;
+    color: white;
+    text-shadow: 2px 2px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .message:active {
