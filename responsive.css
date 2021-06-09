@@ -14,7 +14,7 @@
   }
 }
 
-/* Untuk Handphone */
+/* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .wisata {
     width: 100%;
@@ -52,5 +52,10 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .footer-list {
+    text-align: left;
+    margin-right: 150px;
   }
 }
