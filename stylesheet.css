@@ -10,6 +10,11 @@
     top: 0;
     z-index: 10;
   }
+  
+  .logo {
+    width: 24px;
+    margin-top: 20px;
+  }
 
   .header-left {
     float: left;
@@ -35,7 +40,6 @@
   
   body {
     margin: 0;
-    padding: 0;
     font-family: "Lucida Grande";
   }
   
@@ -219,7 +223,7 @@
     box-shadow: none;
   }
   
-  span.menu-icon {
+  .menu-icon {
     color: white;
     float: right;
     font-size: 25px;
