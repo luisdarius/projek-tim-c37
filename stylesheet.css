@@ -159,9 +159,8 @@ a {
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: aqua;
+  color: black;
   font-size: 20px;
-  text-shadow: 2px 2px blue;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -191,7 +190,6 @@ a {
   margin-top: 15px;
   font-size: 15px;
   color: black;
-  text-shadow: 2px 2px aqua;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -209,11 +207,10 @@ a {
 
 .message {
   padding: 15px 40px;
-  background-color: aqua;
+  background-color: blue;
   cursor: pointer;
-  box-shadow: 0 7px gray;
+  box-shadow: 0 7px grey;
   color: white;
-  text-shadow: 2px 2px blue;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
