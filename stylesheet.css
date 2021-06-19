@@ -159,7 +159,7 @@ a {
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: black;
+  color: blue;
   font-size: 20px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -189,7 +189,7 @@ a {
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
-  color: black;
+  color: blue;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
